@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-SpringBootJpaAuditingApplication<spring-boot-jp-auditing>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.techgeeknext.SpringBootJpaAuditingApplication",
+            "projectName": "spring-boot-jp-auditing",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-AuditingApplication<spring-boot-jp-auditing>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.retro.AuditingApplication",
+            "projectName": "spring-boot-jp-auditing",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
